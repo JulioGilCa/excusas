@@ -1,5 +1,5 @@
 const who = ['El perro', 'Mi abuelo', 'Su tortuga', 'Mi pajaro'];
-const what = ['se ha comido', 'ha molestado', 'ha aplastado', 'se ha roto'];
+const what = ['se ha comido', 'ha molestado', 'se ha aplastado', 'se ha roto'];
 const when = [
   'antes de la clase',
   'justo a tiempo',
