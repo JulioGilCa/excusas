@@ -14,7 +14,7 @@ Type on the command line `$ npm run start` and type localhost on the browser.
 
 ### Where do I write my code?  
 
-It depends on the language, but you have `./src/js/app.js`, `./src/style/index.css` and `./isrc/index.html` respectively, you can add new `.html` as you please, just make sure to include import it on the index.js.
+It depends on the language, but you have `./src/js/app.js`, `./src/style/index.css` and `./src/index.html` respectively, you can add new `.html` as you please, just make sure to include import it on the index.js.
 
 > Note: remember that the JS workflow starts inside `window.onload`.
 
