@@ -1,5 +1,6 @@
-const who = ['El perro', 'Mi abuelo', 'Su tortuga', 'Mi pajaro'];
-const what = ['se ha comido', 'ha molestado', 'se ha aplastado', 'se ha roto'];
+const who = ['El perro', 'Mi abuelo', 'La tortuga', 'Mi pajaro'];
+const action = ['se ha comido','se ha meado','ha aplastado','ha roto'];
+const what = ['mis deberes', 'mi comida', 'la ropa', 'las llaves'];
 const when = [
   'antes de la clase',
   'justo a tiempo',
@@ -10,12 +11,12 @@ const when = [
 
 function generadorExcusa() {
   const randomWho = who[Math.floor(Math.random() * who.length)];
+  const randomaction = action[Math.floor(Math.random() * action.length)];
   const randomWhat = what[Math.floor(Math.random() * what.length)];
   const randomWhen = when[Math.floor(Math.random() * when.length)];
-  return `${randomWho} ${randomWhat} ${randomWhen}`;
+  return `${randomWho} ${randomaction} ${randomWhat} ${randomWhen}`;
 }
 
 window.onload = function() {
     document.getElementById('excuse').innerHTML = generadorExcusa();
 };
-  
