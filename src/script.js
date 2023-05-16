@@ -9,7 +9,7 @@ const when = [
   'mientras estaba rezando'
 ];
 
-function generadorExcusa() {
+function generatorExcuse() {
   const randomWho = who[Math.floor(Math.random() * who.length)];
   const randomaction = action[Math.floor(Math.random() * action.length)];
   const randomWhat = what[Math.floor(Math.random() * what.length)];
@@ -18,5 +18,5 @@ function generadorExcusa() {
 }
 
 window.onload = function() {
-    document.getElementById('excuse').innerHTML = generadorExcusa();
+    document.getElementById('excuse').innerHTML = generatorExcuse();
 };
